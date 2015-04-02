@@ -61,12 +61,13 @@ describe "working with arrays" do
     end
   end
 
+  context 'using ruby array methods to get information about an array' do
+    it 'returns the length of the array' do
+      programming_languages = ["Ruby", "Javascript", "Python", "C++", "Java", "Lisp", "PHP", "Clojure"]
 
-  it 'returns the length of the array' do
-    programming_languages = ["Ruby", "Javascript", "Python", "C++", "Java", "Lisp", "PHP", "Clojure"]
-
-    answer = programming_languages.size
-    expect(answer).to eq(8)
+      answer = programming_languages.size
+      expect(answer).to eq(8)
+    end
   end
 
 
