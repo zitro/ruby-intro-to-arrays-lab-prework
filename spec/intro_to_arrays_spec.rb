@@ -98,5 +98,4 @@ describe "working with arrays" do
     end
   end
 
-
 end
