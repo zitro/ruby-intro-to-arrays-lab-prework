@@ -18,3 +18,5 @@
 ## Resources
 
 [Ruby Docs - Array](http://www.ruby-doc.org/core-2.1.4/Array.html)
+
+<a href='https://learn.co/lessons/ruby-intro-to-arrays-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
