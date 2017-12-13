@@ -11,22 +11,24 @@ end
 
 def first_element(array)
   array[0]
-  #taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
-  #first_element = taylor_swift[0]
-  #third_element = taylor_swift[2]
-  #last_element = taylor_swift[-1]
 end
 
-
-def rubArrReturn
-  south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
-  first_country = south_east_asia.first
-  last_country = south_east_asia.last
-
+def third_element(array)
+  array[2]
 end
 
-def arrinfo
-  programming_languages = ["Ruby", "Javascript", "Python", "C++", "Java", "Lisp", "PHP", "Clojure"]
-  length = programming_languages.length
+def last_element(array)
+  array[-1]
+end
 
+def first_element_with_array_methods(array)
+  array.first
+end
+
+def last_element_with_array_methods(array)
+  array.last
+end
+
+def length_of_array(array)
+  array.length
 end
