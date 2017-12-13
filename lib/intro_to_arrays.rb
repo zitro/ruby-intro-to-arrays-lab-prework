@@ -1,7 +1,7 @@
 
 
   my_new_array = []
-return my_new_array
+puts my_new_array
 
 
 def array_with_two_elements
